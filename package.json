@@ -1,0 +1,13 @@
+{
+  "name": "devops-node-postgres",
+  "version": "2.0.0",
+  "description": "Aplicación Node.js con PostgreSQL, pgAdmin, Docker Compose y GitHub Actions",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.3",
+    "pg": "^8.11.5"
+  }
+}
