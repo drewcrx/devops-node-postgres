@@ -4,7 +4,7 @@ const { Pool } = require("pg");
 const app = express();
 const PORT = 5000;
 
-const VERSION = "2.0.0";
+const VERSION = "3.0.0";
 
 const pool = new Pool({
   host: "db",
